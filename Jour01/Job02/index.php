@@ -9,15 +9,15 @@
 <body>
 <?php
 // Première méthode avec une seule ligne de commentaire
-echo "Hello LaPlateforme!"; // Affiche "Hello LaPlateforme!"
-echo "Hello LaPlateforme!"; // Affiche "Hello LaPlateforme!"
+echo "Hello LaPlateforme!"; 
+echo "Hello LaPlateforme!"; 
 ?>
 <?php
 /*
 Deuxième méthode avec un bloc de commentaire
 */
-echo "Hello LaPlateforme!"; // Affiche "Hello LaPlateforme!"
-echo "Hello LaPlateforme!"; // Affiche "Hello LaPlateforme!"
+echo "Hello LaPlateforme!"; 
+echo "Hello LaPlateforme!"; 
 ?>
 
 </body>
