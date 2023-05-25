@@ -8,14 +8,15 @@
 </head>
 <body>
     <?php
-    for($i=0;$i<100;$i++)
-    if($i==42){
-        echo 'LaPlateforme.<br />';
-    } elseif ($i>=0 && $i<=20){
-        echo'<i>{$i}</i><br />';
-    }elseif ($i>=25 && $i<=50){
-        echo'<u>{$i}</u><br />'; 
-    }
+    $str = "Les choses que lon possede finissent par nous posseder.";
+    $reverseStr = "";
+
+// Parcourir la chaîne de la fin vers le début
+for ($i = strlen($str) - 1; $i >= 0; $i--) {
+    $reverseStr .= $str[$i];
+}
+echo $reverseStr;
+
     ?>
 </body>
 </html>

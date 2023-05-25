@@ -7,15 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    for($i=0;$i<100;$i++)
-    if($i==42){
-        echo 'LaPlateforme.<br />';
-    } elseif ($i>=0 && $i<=20){
-        echo'<i>{$i}</i><br />';
-    }elseif ($i>=25 && $i<=50){
-        echo'<u>{$i}</u><br />'; 
-    }
-    ?>
+<?php
+
+$str = "Dans l'espace, personne ne vous entend crier";
+echo "Le nombre de caractères dans la chaîne est : " . strlen($str);
+
+?>
 </body>
 </html>

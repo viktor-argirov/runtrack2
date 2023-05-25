@@ -30,4 +30,4 @@ for ($nombre = 2; $nombre <= 1000; $nombre++) {
 }
 ?>
 </body>
-</html
+</html>

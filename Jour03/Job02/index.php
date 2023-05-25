@@ -8,13 +8,10 @@
 </head>
 <body>
     <?php
-    for($i=0;$i<100;$i++)
-    if($i==42){
-        echo 'LaPlateforme.<br />';
-    } elseif ($i>=0 && $i<=20){
-        echo'<i>{$i}</i><br />';
-    }elseif ($i>=25 && $i<=50){
-        echo'<u>{$i}</u><br />'; 
+    $str = "Tous ces instants seront perdus dans le temps comme les larmes sous la pluie.";
+
+    for ($i = 0; $i < strlen($str); $i += 2) {
+        echo $str[$i];
     }
     ?>
 </body>
