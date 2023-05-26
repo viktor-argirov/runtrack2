@@ -17,7 +17,7 @@ $str2 = "Vive";
 $str3 = "!";
 
 // Concaténation des variables
-echo $str2 . "  " . $str . " ccr" . $str3; // Affiche "Vive LaPlateforme !"
+echo $str2 . "  " . $str . "  " . $str3; // Affiche "Vive LaPlateforme !"
 
 // Création de la variable val
 $val = 6;
