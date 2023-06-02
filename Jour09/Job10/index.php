@@ -9,7 +9,7 @@ echo "<thead>";
 echo "<tr>";
 echo "<th>id</th>";
 echo "<th>nom</th>";
-echo "<th>id-etages</th>";
+echo "<th>numero</th>";
 echo "<th>capacite</th>";
 echo "</tr>";
 echo "</thead>";
@@ -19,7 +19,7 @@ foreach ($users as $key =>$user){
     echo '<tr>';
     echo '<td>' . $user['id'] . '</td>';
     echo '<td>' . $user['nom'] . '</td>';
-    echo '<td>' . $user['id-etages'] . '</td>';
+    echo '<td>' . $user['numero'] . '</td>';
     echo '<td>' . $user['capacite'] . '</td>';
     echo '</tr>';
 }
